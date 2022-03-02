@@ -10,4 +10,4 @@ main.o: main.c main.h
 	$(CC) $(CFLAGS) -c main.c
 
 clean:
-	rm -f main.o main
+	rm -f main.o main.exe
